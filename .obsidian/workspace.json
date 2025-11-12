@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1bc95b80eed5b45f",
+        "id": "41a4be053df1a7f3",
         "type": "tabs",
         "children": [
           {
-            "id": "bd6cdc604ebb491d",
+            "id": "be2e77aef2166033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Components.md",
+                "file": "System Design/Design Problems/Design News Feed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Components"
+              "title": "Design News Feed"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 343.5
   },
   "right": {
     "id": "cc249106692adee6",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Components.md",
+                "file": "DSA/C++STL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Components"
+              "title": "Backlinks for C++STL"
             }
           },
           {
@@ -112,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Components.md",
+                "file": "DSA/Graphs.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Components"
+              "title": "Outgoing links from Graphs"
             }
           },
           {
@@ -127,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -139,14 +142,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Components.md"
+                "file": "DSA/Graphs.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Components"
+              "title": "Outline of Graphs"
+            }
+          },
+          {
+            "id": "3aaf6a65ecb4f9df",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -155,34 +171,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "bd6cdc604ebb491d",
+  "active": "be2e77aef2166033",
   "lastOpenFiles": [
-    "DSA/BinarySearch.md",
-    "Low Level Design",
-    "Components.md",
+    "System Design/System Design Concepts.md",
     "TODO.md",
-    "DSA/Number_Theory.md",
-    "DSA/DynamicProgramming.md",
-    "DSA/C++STL.md",
-    "DSA/C++ STL.md",
-    "DSA/Trie.md",
+    "System Design/Design Problems/Design News Feed.md",
+    "System Design/Design Problems/Design Url Shortner.md",
+    "System Design/Design Problems/Problem List.md",
+    "System Design/Design Problems",
+    "System Design/Key Technologies.md",
+    "System Design/SQL and NoSQL.md",
+    "Components.md",
+    "System Design/Databases.md",
+    "System Design/Fundamentals.md",
+    "System Design/Redis.md",
+    "Low Level Design/Interfaces.md",
+    "Low Level Design/oop.md",
+    "Multithreading/Multithreading in Java.md",
     "DSA/Trees.md",
-    "DSA/Stacks_Queues.md",
+    "DSA/BinarySearch.md",
+    "DSA/Workbook/Practice Problems.md",
+    "Low Level Design/Solid.md",
+    "System Design/Untitled.base",
+    "System Design/Untitled.canvas",
+    "System Design",
+    "Low Level Design/Untitled.md",
     "DSA/ProbabilityCombinatorics.md",
+    "DSA/Number_Theory.md",
     "DSA/Heaps.md",
-    "DSA/Graphs.md",
-    "DSA/DSU.md",
+    "DSA/Stacks_Queues.md",
     "DSA/DPOnTrees.md",
+    "DSA/Workbook/Drawing 2025-08-16 19.57.25.excalidraw.restored.md",
+    "DSA/Workbook/Drawing 2025-08-16 19.57.25.excalidraw.md",
+    "DSA/Workbook",
+    "Untitled.canvas",
+    "Multithreading",
+    "Low Level Design",
     "DSA",
-    "TODO",
-    "Welcome.md"
+    "TODO"
   ]
 }
