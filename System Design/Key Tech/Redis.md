@@ -1,5 +1,3 @@
-## Redis & Memcached
-
 ### How Redis Works: The Core Idea
 
 At its heart, **Redis (Remote Dictionary Server)** is an in-memory data structure store. Think of it as an extremely fast, non-relational database that keeps all its data in your server's RAM (Random Access Memory) instead of on a hard disk (SSD/HDD).
@@ -77,7 +75,3 @@ Key Characteristics:
 - ✅ Should cache data survive restarts?
 - ✅ Do you need replication and high availability?
 - ✅ Are you building real-time features?
-
-## Elasticsearch & OpenSearch
-
-
