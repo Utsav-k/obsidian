@@ -24,6 +24,39 @@ Some of the most fundamental data structures supported by Redis:
 - Geospatial Indexes
 - Time Series
 In addition to simple data structures, Redis also supports different communication patterns like Pub/Sub and Streams, partially standing in for more complex setups like Apache Kafka or AWS SNS (Simple Notification Service) / SQS (Simple Queue Service).
+
+### Sorted Sets
+
+**Sorted Sets** are a data structure that stores unique elements (like Sets) but each element has an associated score. Elements are automatically sorted by their scores.
+#### Key Characteristics:
+- **Unique members** (no duplicates)
+- **Each member has a score** (float/double)
+- **Automatically sorted** by score
+- **O(log N)** for most operations
+- **Maintains order** when adding/updating
+
+#### When to Use Sorted Sets
+1. **Leaderboards & Rankings**
+```
+# Gaming leaderboard
+ZADD game_scores 5000 "player1" 4800 "player2" 5200 "player3"
+ZREVRANGE game_scores 0 9 WITHSCORES  # Get top 10
+ZINCRBY game_scores 100 "player1"     # Update score
+```
+2. **News Feeds**
+```
+# Store user's feed with timestamp as score
+ZADD feed:user123 1672531200 "post_id_1" 1672531260 "post_id_2"
+ZREVRANGE feed:user123 0 49  # Get latest 50 posts
+```
+3. **Time-series Data**
+
+```
+# Store events with timestamps
+ZADD user_events 1672531200 "login" 1672531260 "purchase"
+ZRANGEBYSCORE user_events 1672531200 1672531300
+```
+
 ### Where to Use Redis in System Design
 
 Redis is a versatile tool, but it's crucial to use it for the right job.

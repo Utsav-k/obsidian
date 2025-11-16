@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/Design Problems/Design News Feed.md",
+                "file": "System Design/Design Problems/Design Url Shortner.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design News Feed"
+              "title": "Design Url Shortner"
             }
           }
         ]
@@ -157,8 +157,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -177,25 +177,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "be2e77aef2166033",
+  "active": "87ead5af1da58a0a",
   "lastOpenFiles": [
+    "System Design/Design Problems/Design Url Shortner.md",
+    "System Design/Design Problems/Design Rate Limiter.md",
+    "System Design/Design Problems/Design News Feed.md",
+    "System Design/Core Concepts/Pagination.md",
+    "System Design/Core Concepts/SQL and NoSQL.md",
+    "System Design/Core Concepts/System Design Concepts.md",
     "System Design/Key Tech/Redis.md",
+    "System Design/Core Concepts/Databases.md",
+    "System Design/Untitled.md",
+    "System Design/Core Concepts",
     "System Design/Key Technologies.md",
     "System Design/Key Tech",
-    "System Design/Design Problems/Design News Feed.md",
-    "System Design/Design Problems/Design Url Shortner.md",
     "System Design/Design Problems/Problem List.md",
-    "System Design/Databases.md",
-    "System Design/Pagination.md",
-    "System Design/SQL and NoSQL.md",
     "LLD",
-    "System Design/System Design Concepts.md",
     "TODO.md",
     "System Design/Design Problems",
     "Components.md",
@@ -215,13 +215,10 @@
     "DSA/ProbabilityCombinatorics.md",
     "DSA/Number_Theory.md",
     "DSA/Heaps.md",
-    "DSA/Stacks_Queues.md",
-    "DSA/DPOnTrees.md",
     "DSA/Workbook",
     "Untitled.canvas",
     "Multithreading",
     "Low Level Design",
-    "DSA",
-    "TODO"
+    "DSA"
   ]
 }
